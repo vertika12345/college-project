@@ -1,0 +1,17 @@
+.main-footer{
+    /*color:white;
+    background-color: green;
+    padding-top: 3cm;
+    position: relative;
+    bottom: 0;
+    width:100%;*/
+    /* position: absolute; */
+     width: 100px;  
+    height: 285px;
+    width: 100%;
+    /* left: -5px; */
+    /* top: 1491px; */
+    background: linear-gradient(to right, #ff6600 -14%, #339966 100%);
+    
+
+}

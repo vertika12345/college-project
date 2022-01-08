@@ -1,0 +1,138 @@
+.Home
+{
+    width:100%;
+    height:auto;
+    background-color:white;
+    display:flex;
+    flex-direction:row;
+    padding-top:50px;
+    position:relative;
+}
+.Home::after
+{
+    content:"";
+    width:100%;
+    height:100%;
+    /* background-color:black; */
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:1;
+}
+.left
+{
+    display:flex;
+    flex:0.6;
+    /* background-color:red; */
+    flex-direction:column;
+}
+.right
+{
+    display:flex;
+    flex:0.4;
+    /* background-color:blue; */
+    flex-direction:column;
+}
+.upperhalf
+{
+    display:flex;
+    flex-direction:row;
+    height:500px;
+}
+.upperhalfleft
+{
+    display:flex;
+    flex:0.4;
+    /* background-color:red; */
+}
+.upperhalfright
+{
+    display:flex;
+    flex:0.6;
+    flex-direction:column;
+    /* background-color:green; */
+
+}
+.hori
+{
+    width:100%;
+    height:1px;
+    background-color:black;
+    margin:5px;
+}
+.image
+{
+    width:80%;
+    height:50%;
+    /* background-color:black; */
+    margin:5px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    padding-top:50px;
+}
+.image>img
+{      
+    display: flex;
+    flex-direction: column;
+    width:85px;
+    padding-bottom: 30px;
+    height:80%;
+    border-radius:50%;
+}
+
+.heading
+{
+
+    flex-direction: row;
+    text-align:center;
+}
+.date
+{
+    position:relative;
+    min-width:100%;
+    text-align:left;
+}
+.date::after
+{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:50px;
+    width:90%;
+    height:1px;
+    background-color:black;
+    /* opacity:0.5; */
+    z-index:1;
+}
+.buttonlist
+{
+    margin-top:-20px;
+}
+
+ @media screen and (max-width: 950px) {
+    .Home
+    {
+         display:flex;
+        flex-direction:column;
+    }
+}
+
+.play
+{
+    align-items: left;
+    justify-content: bottom;
+    position :relative;
+    top:100px;
+}
+.headingimg
+{
+    height:50px;
+    width:50px;
+}
+.feature
+{
+    border-radius:20%;
+}
+
